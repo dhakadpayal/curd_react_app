@@ -40,7 +40,7 @@ const Table = ({ employees, handleEdit, handleDelete }) => {
                 <td className="text-right">
                   <button
                     onClick={() => handleEdit(employee.id)}
-                    className="button muted-button btn btn-success"
+                    className=" btn btn-primary btn-1 "
                   >
                     Edit
                   </button>
@@ -48,7 +48,7 @@ const Table = ({ employees, handleEdit, handleDelete }) => {
                 <td className="text-left">
                   <button
                     onClick={() => handleDelete(employee.id)}
-                    className="button muted-button btn btn-danger"
+                    className=" btn btn-danger btn-1"
                   >
                     Delete
                   </button>

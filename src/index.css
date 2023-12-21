@@ -417,6 +417,12 @@ kbd {
   padding: 0.1em 0.6em;
   text-shadow: 0 1px 0 #fff;
 }
+.btn-1{
+  margin:0px;
+  width:90%;
+  padding:10px;
+}
+
 
 :not(pre) > code {
   color: #404040;
